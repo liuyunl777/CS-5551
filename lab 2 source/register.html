@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" >
+
+
+    function save() {
+
+        localStorage.setItem("first name",document.getElementById("first name").value);
+        msg.innerHTML ="register successfully! welcome:" + localStorage.getItem('first name');
+
+    }
+
+    </script>
+
+    <title>register</title>
+
+</head>
+<body>
+
+
+ <div id="login"><center>
+
+    <h2><span class="fontawesome-lock"></span><center>Register</center></h2>
+
+
+<div>
+       <center>
+<form>
+           <p><label for="first name">first name:</label>   <input type="first name" id="first name" value="first name" onblur="if(this.value=='')this.value='first name'" onfocus="if(this.value=='first name')this.value=''"></p>
+           <p><label for="last name">last name:</label>   <input type="last name" id="last name" value="last name" onblur="if(this.value=='')this.value='last name'" onfocus="if(this.value=='last name')this.value=''"></p>
+            <p><label for="password">Password:</label>      <input type="password" id="password" value="........" onBlur="if(this.value=='')this.value='........'" onFocus="if(this.value=='........')this.value=''"></p>
+
+
+           <p><input type="button" value="submit" onclick="save()">  <input type="button" value=" Back to Sign In" onclick="location.href='login.html'">    <input type="reset" value="reset" ></p>
+           <div id="msg"></div>
+</form>
+        </center>
+
+</div>
+    </center>
+    </div>
+
+</body>
+
+</html>

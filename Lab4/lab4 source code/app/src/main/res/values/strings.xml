@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="demo_title">Yunlong Liu (25)</string>
+    <string name="legal_info">Legal Info</string>
+    <string name="no_demos">No demos</string>
+    <string name="play_services_not_installed">Google Play services is not installed on this device.</string>
+
+    <string name="alpha">Alpha</string>
+    <string name="animate">Animate</string>
+    <string name="basic_map_demo_label">Map</string>
+    <string name="basic_map_demo_description">run the map.</string>
+
+
+    <string name="hybrid">Hybrid</string>
+    <string name="indoor">Indoor</string>
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/hybrid</item>
+
+
+        <item>@string/satellite</item>
+        <item>@string/terrain</item>
+        <item>@string/none_map</item>
+    </string-array>
+    <string name="layers_demo_label">Layers</string>
+
+    <string name="none_map">None</string>
+    <string name="normal">Normal</string>
+    <string name="options_demo_label">Options</string>
+    <string name="options_demo_description">Demonstrates how to use Options to initialize a map.</string>
+    <string name="polygon_demo_label">Polygons</string>
+    <string name="polygon_demo_description">Demonstrates how to add Polygons to a map.</string>
+    <string name="polyline_demo_label">Polylines</string>
+    <string name="polyline_demo_description">Demonstrates how to add Polylines to a map.</string>
+    <string name="programmatic_demo_label">Programmatically add map</string>
+    <string name="programmatic_demo_description">Demonstrates how to add a MapFragment programmatically.</string>
+    <string name="properties_circle">Properties for Circle(s)</string>
+    <string name="properties_sydney_polyline">Properties for Sydney Polyline</string>
+    <string name="properties_sydney_polygon">Properties for Sydney Polygon</string>
+    <string name="rotate">Rotate Gestures</string>
+    <string name="raw_map_view_demo_label">Raw MapView</string>
+    <string name="raw_map_view_demo_description">Demonstrates how to use a raw MapView.</string>
+    <string name="reset_map">Reset</string>
+    <string name="retain_map_demo_label">Retain map</string>
+    <string name="retain_map_demo_description">Demonstrates how to reuse a MapFragment.</string>
+    <string name="right_arrow">\u2192</string>
+    <string name="rotation">Rotation:</string>
+    <string name="satellite">Satellite</string>
+    <string name="save_state_demo_label">Save the state of a MapFragment.</string>
+    <string name="save_state_demo_description">Demonstrates how to save the state of a MapFragment upon rotation of the device.</string>
+    <string name="save_state_instructions">Drag the marker, tap on it to change its color and rotate the device to check that the state of the map is preserved.</string>
+    <string name="scroll">Scroll Gestures</string>
+    <string name="snapshot_clear_button">Clear</string>
+    <string name="snapshot_demo_label">Snapshot</string>
+    <string name="snapshot_demo_description">Demonstrates how to take a snapshot of the map.</string>
+    <string name="snapshot_holder_description">Area for the map snapshot.</string>
+    <string name="snapshot_take_button">Take snapshot</string>
+    <string name="stop_animation">\u25A0</string>
+    <string name="stroke_width">Stroke Width</string>
+    <string name="swipe">\u2190 Swipe \u2192</string>
+    <string name="switch_image">Switch Image</string>
+    <string name="tap_instructions">Tap or long press on the map</string>
+    <string name="terrain">Terrain</string>
+    <string name="tile_coordinate_demo_label">Tile Coordinate Overlay</string>
+    <string name="tile_coordinate_demo_description">Demonstrates how to add a tile overlay with tile coordinates to a map.</string>
+    <string name="tile_overlay_demo_label">Tile Overlays</string>
+    <string name="tile_overlay_demo_description">Demonstrates how to add a tile overlay to a map.</string>
+    <string name="tilt">Tilt Gestures</string>
+    <string name="tilt_less">\u2193</string>
+    <string name="tilt_more">\u2191</string>
+    <string name="traffic">Traffic</string>
+    <string name="transparency">Transparency</string>
+    <string name="ui_settings_demo_label">UI Settings</string>
+    <string name="ui_settings_demo_description">Demonstrates how to alter user interface settings.</string>
+    <string name="up_arrow">\u2191</string>
+    <string name="visible_region_demo_label">Visible Regions</string>
+    <string name="visible_region_demo_description">Demonstrates how to use Visible Regions.</string>
+    <string name="vr_aus_button">AUS</string>
+    <string name="vr_normal_button">Normal</string>
+    <string name="vr_more_padded_button">More</string>
+    <string name="vr_soh_button">SOH</string>
+    <string name="vr_sfo_button">SFO</string>
+    <string name="wait_for_map_load">Wait for Map Load</string>
+    <string name="width">Width</string>
+    <string name="zoom_buttons">Zoom Buttons</string>
+    <string name="zoom_gestures">Zoom Gestures</string>
+    <string name="zoom_in">+</string>
+    <string name="zoom_out">-</string>
+
+    <!-- Lite Mode -->
+    <string name="lite_demo_label">Lite Mode</string>
+    <string name="lite_demo_description">Demonstrates some features on a map in lite mode.</string>
+    <string name="lite_demo_intro">Click the map with no, one or multiple markers displayed to open the Google Maps Mobile app.</string>
+    <string name="lite_go_to_darwin">Go to Darwin (No Markers)</string>
+    <string name="lite_go_to_adelaide">Go to Adelaide (One Marker)</string>
+    <string name="lite_go_to_australia">Go to Australia (Five Markers)</string>
+    <string name="lite_list_demo_label">Lite Mode ListView</string>
+    <string name="lite_list_demo_description">Demonstrates using maps in lite mode in a ListView.</string>
+
+
+    <!--    Styling    -->
+    <string name="styled_map_demo_label">Styled Map</string>
+    <string name="styled_map_demo_description">Demonstrates how to style a map.</string>
+    <string name="style_label_retro">Retro</string>
+    <string name="style_label_night">Night</string>
+    <string name="style_label_grayscale">Grayscale</string>
+    <string name="style_label_no_pois_no_transit">No POIs or transit</string>
+    <string name="style_label_default">Default</string>
+    <string name="style_choose">Choose style</string>
+    <string name="style_set_to">Style set to: %1$s</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in here</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

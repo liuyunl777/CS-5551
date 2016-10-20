@@ -14,12 +14,12 @@ palceholder:type in your name;
 		tell me you came from:
 		<input type = 'text' name = 'input_luck'>
 		<button type = 'submit'>Submit</button>
-	</form>
-	<form action="labservlet" method="get">
-	now select food you like the most:<br>
-	<input type="checkbox">pizza<br>
-	<input type="checkbox">burger<br>
-	<input type="checkbox">noodle<br>
+	<!-- </form> -->
+	<!-- <form action="labservlet" method="get"> -->
+	<br>now select food you like the most:<br>
+	<input type="checkbox" name="c1">pizza<br>
+	<input type="checkbox" name="c2">burger<br>
+	<input type="checkbox" name="c3">noodles<br>
 	</form>
 
 </body>

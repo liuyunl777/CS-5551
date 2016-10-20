@@ -1,4 +1,4 @@
-# tutorial
+# tutorial lab
 
-Lab 7 wiki page link :[click here](https://github.com/liuyunl777/assignment-01/wiki/CS-5551-lab-7)!!
+Lab 8 wiki page link :[click here](https://github.com/liuyunl777/assignment-01/wiki/CS-5551-lab-8)!!
 

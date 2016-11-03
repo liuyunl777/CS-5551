@@ -1,0 +1,40 @@
+ <ion-view view-title="function page">
+      <ion-nav-buttons side="right">
+        <a class="button button-icon icon ion-person" href="#/tab/dash/DiabetesDetector/Update"></a>
+    </ion-nav-buttons> 
+  <ion-content class="padding"> 
+       <div class="list card">
+           <div class="list"> 
+                <div class="item row">
+                  <div class="col">
+                      <label class="item-input item-floating-label">
+                       <span class="input-label"></span>
+                        <input id="sugerLevel1" type="text" placeholder="" ng-model="diaParameterF" required="required" >
+                      </label>
+                  </div>
+                </div>
+                <div class="item row">
+                  <div class="col">
+                      <label class="item-input item-floating-label">
+                       <span class="input-label"></span>
+                        <input id="sugerLevel2" type="text" placeholder="" ng-model="diaParameter2H">
+                      </label>
+                  </div>
+                </div>
+  
+       </div>
+             </div>
+<button id="diadetect" class="button button-block button-energized" ng-click="diaDetectView(diaDetectLogic(diaParameterF,diaParameter2H))">
+  submit
+    </button>
+
+ <div id="result" class="hide">
+  <div class="item item-text-wrap">
+</div>
+</div> 
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div id="suggestio" class="hide">
+  </div>
+  </ion-content>
+</ion-view>

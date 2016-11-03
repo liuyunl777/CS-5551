@@ -1,4 +1,4 @@
 # tutorial lab
 
-Lab 9 wiki page link :[click here](https://github.com/liuyunl777/assignment-01/wiki/CS-5551-lab-9)!!
-
+Lab 10 wiki page link :[click here](https://github.com/liuyunl777/assignment-01/wiki/CS-5551-lab-10)!!
+here is the amazon link :[click here](liuyunl777.s3-website-us-west-2.amazonaws.com/www/index.com)!!
